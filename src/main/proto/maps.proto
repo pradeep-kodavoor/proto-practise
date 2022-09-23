@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package practise.maps;
+
+message Value {
+  string name = 1;
+  int32 age = 2;
+}
+
+message Maps {
+  map<int32, Value> person = 1;
+}
